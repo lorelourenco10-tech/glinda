@@ -37,15 +37,74 @@ a{
 }
 
 h1{
+    display: flex;
+    justify-content: center;
     color: #D92B9F;
     font-family: "Italianno", cursive;
     font-weight: 400;
     font-style: normal;
-    margin-left: 20px;
+    margin: 20px;
+    font-size: 50px;
+
 }
 
 .menu, li{
     margin-left: 10px;
 }
 
+.banner{ 
+     display: flex;
+     justify-content: center;
+     padding-top: 10px;     
+ }
+ 
+ .banner img{
+     border: 15px solid;
+     color: #CF7EC4; 
+     border-radius: 30px;
+     
+}
+ 
+ .cards{
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     margin-top: 30px;
+     gap: 130px;
+     padding-bottom: 30px;
+     border-radius: 30px;
+ }
+ 
+ .card1{
+    border-radius: 30px;
+     border: 15px solid;
+     color: #CF7EC4;
+ 
+ }
+ 
+ .card2{
+    border-radius: 30px;
+     border: 15px solid;
+     color: #CF7EC4;
+ 
+ }
+ 
+ .card3{
+    border-radius: 30px;
+     border: 15px solid;
+     color: #CF7EC4;
+ }
+ img{
+    border-radius: 15px;
+    margin-bottom: -4px;    
+ }
+ 
+ footer{
+     padding: 1px 8px;
+     background-color: #D92B9F;
+ }
+ 
+ h2{
+     font-size: 20px;
+ }
 
